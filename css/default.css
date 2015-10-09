@@ -18,3 +18,8 @@ a {
   text-decoration: none;
   background-color : transparent;
 }
+table, th, td {
+  border: 1px invisible;
+  padding: 10px;
+  border-collapse: collapse;
+}
