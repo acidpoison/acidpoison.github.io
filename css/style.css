@@ -1,0 +1,71 @@
+html, body {
+	color: #fff;
+	background-image: url("../images/bg.gif");
+	background-color: #7000a4;
+	font-family: 'Ubuntu', sans-serif;
+	width: 100%;
+	height: 100%;
+	padding: 0;
+	margin: 0;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Montserrat', sans-serif;
+}
+p {
+	font-size: 1em;
+}
+a:link, a:visited {
+	color: #fff;
+	text-decoration: none;
+	-webkit-transition: color .2s;
+	transition: color .2s;
+}
+a:hover, a:active {
+	color: #7000a4;
+	text-decoration: none;
+}
+.cover {
+	width: 100%;
+	height: 100%;
+}
+.perfect-center-parent {
+	position: relative;
+}
+.perfect-center {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+.icon {
+	border: 0px solid #fff;
+	border-radius: 100px;
+	display: inline-block;
+	padding: 30px;
+	-webkit-transition: border .2s, padding .2s;
+	transition: border .2s, padding .2s;
+}
+.icon:hover {
+	border: 10px solid #fff;
+	border-radius: 100px;
+	display: inline-block;
+	padding: 20px;
+}
+.footer {
+	padding: 10px;
+	position: fixed;
+	bottom: 0;
+}
+.footer-right {
+	right: 0;
+}
+.footer-left {
+	left: 0;
+}
+.gradient {
+	background: rgba(0,0,0,.8);
+    background: -webkit-linear-gradient(rgba(0,0,0,0), rgba(0,0,0,.8));
+    background: -o-linear-gradient(rgba(0,0,0,0), rgba(0,0,0,.8));
+    background: -moz-linear-gradient(rgba(0,0,0,0), rgba(0,0,0,.8));
+    background: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,.8));
+}
